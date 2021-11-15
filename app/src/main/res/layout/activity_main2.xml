@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FCCD59"
+    tools:context=".MainActivity2">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="200dp"
+        android:background="@drawable/and_back"
+        android:hint="First Name"
+        android:padding="12dp" />
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="200dp"
+    android:background="@drawable/and_back"
+    android:hint="Last Name"
+    android:padding="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF200F"
+        android:text="Gender"/>
+    <RadioGroup
+        android:id="@+id/rg_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp">
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:textColor="#FF200F"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF200F"
+            android:text="Female"/>
+
+        <RadioButton
+            android:id="@+id/rb_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF200F"
+            android:text="Other"/>
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF200F"
+        android:text="favourite movies"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/cb_avengers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF200F"
+            android:text="Avengers Endgame"/>
+        <CheckBox
+            android:id="@+id/cb_inception"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF200F"
+            android:text="Inception"/>
+        <CheckBox
+            android:id="@+id/cb_shawshanks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF200F"
+            android:text="Shawshanks Redemption"/>
+        <CheckBox
+            android:id="@+id/cb_intersteller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF200F"
+            android:text="Intersteller"/>
+        <CheckBox
+            android:id="@+id/cb_sardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF200F"
+            android:text="Sardar Udham Singh"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
